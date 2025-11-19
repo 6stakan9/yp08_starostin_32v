@@ -1,0 +1,62 @@
+.welcome{
+  background-image: url("./assets/img/welcome.png");
+  height: 978px;
+  .welcomeBox{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: space-between;
+    .WelcomeHeading{
+      color: white;
+      gap: 70px;
+      flex-direction: column;
+      display: flex;
+      .WelcomeName{
+        p{
+          font-size: 48px;
+          font-weight: bolder;
+          margin: 0;
+        }
+      }
+      .WelcomeSubtitle{
+        p{
+          font-size: 36px;
+          font-weight: bold;
+          margin: 0;
+        }
+      }
+    }
+  }
+}
+.about{
+
+  .aboutTextImg{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 460px 100px 460px 100px;
+    gap: 100px;
+    .aboutDescription{
+      gap: 50px;
+      .aboutHeading{
+        font-size: 36px;
+      }
+      .aboutSubtitle{
+        font-size: 24px;
+      }
+      .aboutAdvantages{
+        font-size: 24px;
+        ul{
+          text-decoration: none;
+          color: black;
+        }
+      }
+    }
+    .aboutImg{
+      #about{
+        height: 440px;
+      }
+    }
+  }
+}
