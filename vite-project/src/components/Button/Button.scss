@@ -2,7 +2,8 @@ button{
   padding: 20px 50px 20px 50px;
   border-radius: 20px 0 20px 0;
   border-width: 2px 0 2px 0;
-  display: flex;
+  display: inline-block;
+  width: 29%; //заглушка ебаная
   justify-content: center;
   align-items: center;
   font-size: 36px;

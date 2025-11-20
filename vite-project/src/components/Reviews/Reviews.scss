@@ -1,0 +1,33 @@
+.reviews{
+  padding: 100px 0 100px 0;
+  .reviews_title{
+    font-size: 96px;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+  }
+  .reviews_card{
+    margin: 0 100px 0 100px;
+    display: flex;
+    justify-content: space-between;
+    padding: 80px;
+    border: black solid;
+    border-width: 3px 0 3px 0;
+    border-radius: 20px 0 20px 0;
+    .reviews_left{
+      .reviews_quote{
+        font-size: 36px;
+      }
+      .reviews_author{
+        font-size: 24px;
+      }
+    }
+    .reviews_right{
+      width: 630px;
+      height: 100%;
+      .reviews_text{
+        font-size: 24px;
+      }
+    }
+  }
+}

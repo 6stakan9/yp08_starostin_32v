@@ -1,0 +1,74 @@
+footer{
+  margin-top: 100px;
+  border-top: 3px black solid;
+  padding: 100px;
+  .descriptionFooter{
+    border-bottom: 3px black solid;
+    margin-bottom: 70px;
+    padding-bottom: 70px;
+    .descriptionFooterTop{
+      display: flex;
+      justify-content: space-between;
+      align-items: start;
+      margin-bottom: 80px;
+      .descriptionFooterTopLeft{
+        .descriptionFooterTopLeftLogo{
+          font-size: 36px;
+          margin-bottom: 15px;
+        }
+        .descriptionFooterTopLeftOrganization{
+          font-size: 20px;
+        }
+      }
+      .descriptionFooterTopRight{
+        .descriptionFooterTopRightNumber{
+          font-size: 24px;
+          margin-bottom: 15px;
+        }
+        .descriptionFooterTopRightMail{
+          font-size: 24px;
+          margin-bottom: 50px;
+        }
+        .descriptionFooterTopRightMedia{
+          .MediaIcon{
+
+          }
+        }
+      }
+    }
+    .descriptionFooterBottom{
+      .descriptionFooterBottomNavigation{
+        padding: 0 50px 0 50px;
+        ul{
+          display: flex;
+          justify-content: space-between;
+          align-items: center;
+          li{
+            font-size: 36px;
+            font-weight: bold;
+            text-decoration: none;
+            color: black;
+            list-style: none;
+          }
+        }
+      }
+      .descriptionFooterBottomApplications{
+        display: flex;
+        justify-content: center;
+        gap: 50px;
+        margin-top: 50px;
+      }
+    }
+  }
+  .agreements{
+    ul{
+      li{
+        font-size:24px;
+        text-decoration: none;
+        color: black;
+        list-style: none;
+        text-align: center;
+      }
+    }
+  }
+}
