@@ -1,0 +1,157 @@
+.AboutUs {
+  padding: 5% 10%;
+  display: flex;
+  flex-direction: column;
+  gap: 200px;
+
+  .history,
+  .mission,
+  .team,
+  .principles {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10%;
+
+    .description {
+      .titleHistory,
+      .titleMission,
+      .titleTeam,
+      .titlePrinciples {
+        font-size: 36px;
+        font-weight: bold;
+        margin-bottom: 50px;
+      }
+
+      .descriptionHistory,
+      .descriptionMission,
+      .descriptionTeam,
+      .descriptionPrinciples {
+        font-size: 24px;
+      }
+    }
+  }
+}
+
+.photo {
+  p {
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    font-weight: bold;
+  }
+}
+
+#about_img {
+  width: 700px;
+  height: 500px;
+  border-radius: 30px;
+}
+
+// Desktop ≥1280px
+@media (min-width: 1280px) {
+  .AboutUs {
+    gap: 200px;
+
+    #about_img {
+      width: 700px;
+      height: 500px;
+    }
+
+    .history,
+    .mission,
+    .team,
+    .principles {
+      flex-direction: row;
+      gap: 10%;
+    }
+  }
+}
+
+// Tablet 768–1279px
+@media (min-width: 768px) and (max-width: 1279px) {
+  .AboutUs {
+    padding: 5% 5%;
+    gap: 120px;
+
+    #about_img {
+      width: 500px;
+      height: 350px;
+    }
+
+    .history,
+    .mission,
+    .team,
+    .principles {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 40px;
+
+      .description {
+        .titleHistory,
+        .titleMission,
+        .titleTeam,
+        .titlePrinciples {
+          font-size: 28px;
+          margin-bottom: 30px;
+        }
+
+        .descriptionHistory,
+        .descriptionMission,
+        .descriptionTeam,
+        .descriptionPrinciples {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .photo p {
+    font-size: 28px;
+  }
+}
+
+// Mobile ≤767px
+@media (max-width: 767px) {
+  .AboutUs {
+    padding: 5% 2%;
+    gap: 80px;
+
+    #about_img {
+      width: 100%;
+      height: auto;
+    }
+
+    .history,
+    .mission,
+    .team,
+    .principles {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+      gap: 30px;
+
+      .description {
+        .titleHistory,
+        .titleMission,
+        .titleTeam,
+        .titlePrinciples {
+          font-size: 22px;
+          margin-bottom: 20px;
+        }
+
+        .descriptionHistory,
+        .descriptionMission,
+        .descriptionTeam,
+        .descriptionPrinciples {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+
+  .photo p {
+    font-size: 22px;
+  }
+}

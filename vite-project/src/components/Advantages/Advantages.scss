@@ -1,0 +1,204 @@
+.advantages {
+  padding: 100px 0;
+  display: flex;
+  justify-content: center;
+  gap: 100px;
+
+  .personalManager {
+    background-image: url("./assets/img/personal_manager.png");
+    height: 700px;
+    width: 440px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    flex-direction: column;
+
+    .personalManagerText {
+      background-color: var(--light_blue);
+      width: 100%;
+      height: 205px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        font-size: 32px;
+        color: var(--light_white);
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+
+  .miniAdvantages {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .miniAdvantageTop,
+    .miniAdvantageMid,
+    .miniAdvantageBottom {
+      width: 440px;
+      height: 205px;
+      border-radius: 20px 0 20px 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      flex-direction: column;
+      gap: 20%;
+
+      .headingMiniAdvantages p {
+        font-size: 48px;
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .subtitleMiniAdvantages p {
+        font-size: 32px;
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+
+    .miniAdvantageTop {
+      outline: 2px black solid;
+      outline-offset: -2px;
+    }
+
+    .miniAdvantageMid {
+      background: linear-gradient(to top, var(--red), var(--yellow));
+
+      .headingMiniAdvantages p,
+      .subtitleMiniAdvantages p {
+        color: var(--light_white);
+      }
+    }
+
+    .miniAdvantageBottom {
+      background: linear-gradient(to top, var(--blue), var(--light_blue));
+
+      .headingMiniAdvantages p,
+      .subtitleMiniAdvantages p {
+        color: var(--light_white);
+      }
+    }
+  }
+
+  .freshContent {
+    background-image: url("./assets/img/fresh_content.png");
+    height: 700px;
+    width: 440px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+
+    .freshContentTextTop,
+    .freshContentTextBottom {
+      background-color: var(--red);
+      width: 100%;
+      height: 100px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+
+      p {
+        font-size: 32px;
+        color: var(--light_white);
+        text-align: center;
+        font-weight: bold;
+      }
+    }
+  }
+
+  /* ---------- TABLET 768–1279px ---------- */
+  @media (max-width: 1279px) and (min-width: 768px) {
+    gap: 40px;
+    padding: 80px 0;
+
+    .personalManager,
+    .freshContent {
+      width: 350px;
+      height: 550px;
+
+      .personalManagerText,
+      .freshContentTextTop,
+      .freshContentTextBottom {
+        height: 150px;
+
+        p {
+          font-size: 26px;
+        }
+      }
+    }
+
+    .miniAdvantages {
+      gap: 20px;
+
+      .miniAdvantageTop,
+      .miniAdvantageMid,
+      .miniAdvantageBottom {
+        width: 350px;
+        height: 160px;
+
+        .headingMiniAdvantages p {
+          font-size: 36px;
+        }
+
+        .subtitleMiniAdvantages p {
+          font-size: 24px;
+        }
+      }
+    }
+  }
+
+  /* ---------- MOBILE ≤767px ---------- */
+  @media (max-width: 767px) {
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 0;
+
+    .personalManager,
+    .freshContent {
+      width: 100%;
+      max-width: 340px;
+      height: 450px;
+      background-position: center;
+
+      .personalManagerText,
+      .freshContentTextTop,
+      .freshContentTextBottom {
+        height: 80px;
+
+        p {
+          font-size: 22px;
+        }
+      }
+    }
+
+    .miniAdvantages {
+      flex-direction: column;
+      align-items: center;
+      gap: 20px;
+
+      .miniAdvantageTop,
+      .miniAdvantageMid,
+      .miniAdvantageBottom {
+        width: 100%;
+        max-width: 450px;
+        height: 160px;
+
+        .headingMiniAdvantages p {
+          font-size: 28px;
+        }
+
+        .subtitleMiniAdvantages p {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}

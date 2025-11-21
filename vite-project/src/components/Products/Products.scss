@@ -1,0 +1,77 @@
+.Product{
+  width: 400px;
+  height: 600px;
+  padding-bottom: 20px;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: column;
+  background: linear-gradient(to top, var(--red), var(--light_blue));
+  #imgProduct{
+    width: 100%;
+    height: 464px;
+  }
+  .ProductNamePrice{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    padding: 0 20px 0 20px;
+    .ProductName{
+      font-size: 24px;
+      color: var(--black);
+    }
+    .ProductPrice{
+      font-size: 24px;
+      color: var(--black);
+    }
+  }
+  // Desktop ≥1280px
+  @media (min-width: 1280px) {
+    width: 400px;
+    height: 600px;
+
+    .ProductImg {
+      height: 464px;
+    }
+
+    .ProductName,
+    .ProductPrice {
+      font-size: 24px;
+    }
+  }
+
+  // Tablet 768–1279px
+  @media (min-width: 768px) and (max-width: 1279px) {
+    width: 300px;
+    height: 450px;
+
+    #imgProduct {
+      width: 100%;
+      height: 350px;
+    }
+    .ProductNamePrice{
+      .ProductName,
+      .ProductPrice {
+        font-size: 20px;
+      }
+    }
+  }
+
+  // Mobile ≤767px
+  @media (max-width: 767px) {
+    width: 100%;
+    max-width: 250px;
+    height: auto;
+    padding-bottom: 10px;
+    #imgProduct {
+      height: auto;
+    }
+    .ProductNamePrice{
+      .ProductName,
+      .ProductPrice {
+        font-size: 16px;
+        text-align: center;
+      }
+    }
+  }
+}

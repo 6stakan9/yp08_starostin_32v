@@ -4,4 +4,9 @@ body{
     p{
         margin: 0;
     }
+    #link_pages{
+        text-decoration: none;
+        color: black;
+        list-style: none;
+    }
 }

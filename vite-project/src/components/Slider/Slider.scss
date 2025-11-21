@@ -4,46 +4,84 @@
   margin: 0 auto;
   overflow: hidden;
   position: relative;
-  padding: 100px 0 100px 0;
-}
+  padding: 100px 0;
 
-.slides {
-  display: flex;
-  transition: transform 0.6s ease;
-  width: 100%;
-}
+  .slides {
+    display: flex;
+    transition: transform 0.6s ease;
+    width: 100%;
+  }
 
-.slide {
-  display: flex;
-  justify-content: center;
-  gap: 20px;
-  width: 100%;
-  flex-shrink: 0;
-}
+  .slide {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    width: 100%;
+    flex-shrink: 0;
 
-.slide img {
-  width: 600px;
-  height: 400px;
-  object-fit: cover;
-  border-radius: 8px;
-}
+    img {
+      width: 600px;
+      height: 400px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+  }
 
-/* Индикаторы */
-.indicators {
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  margin-top: 20px;
-}
+  .indicators {
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+    margin-top: 20px;
 
-.line {
-  width: 6px;
-  height: 28px;
-  background: #cfcfcf;
-  border-radius: 3px;
-  transition: background 0.3s;
-}
+    .line {
+      width: 6px;
+      height: 28px;
+      background: #cfcfcf;
+      border-radius: 3px;
+      transition: background 0.3s;
 
-.line.active {
-  background: #000;
+      &.active {
+        background: #000;
+      }
+    }
+  }
+
+  /* ---------- TABLET 768–1279px ---------- */
+  @media (max-width: 1279px) and (min-width: 768px) {
+    padding: 80px 0;
+
+    .slide {
+      img {
+        width: 350px;
+        height: 250px;
+      }
+    }
+
+    .indicators {
+      .line {
+        height: 24px;
+      }
+    }
+  }
+
+  /* ---------- MOBILE ≤767px ---------- */
+  @media (max-width: 767px) {
+    padding: 60px 0;
+
+    .slide {
+      gap: 10px;
+
+      img {
+        width: 260px;
+        height: 180px;
+      }
+    }
+
+    .indicators {
+      .line {
+        width: 5px;
+        height: 18px;
+      }
+    }
+  }
 }

@@ -1,0 +1,147 @@
+.about {
+  .aboutTextImg {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 15% 10%;
+    gap: 100px;
+
+    .aboutDescription {
+      .aboutHeading {
+        font-size: 36px;
+        margin-bottom: 50px;
+      }
+
+      .aboutSubtitle {
+        font-size: 24px;
+        margin-bottom: 50px;
+      }
+
+      .aboutAdvantages {
+        font-size: 24px;
+
+        ul {
+          text-decoration: none;
+          color: black;
+          margin: 0;
+        }
+      }
+    }
+
+    .aboutImg {
+      #about {
+        height: 440px;
+      }
+    }
+  }
+
+  /* ---------- TABLET 768–1279px ---------- */
+  @media (max-width: 1439px) and (min-width: 1280px) {
+    .aboutTextImg {
+      padding: 10% 5%;
+      gap: 60px;
+
+      .aboutDescription {
+        .aboutHeading {
+          font-size: 30px;
+          margin-bottom: 40px;
+        }
+
+        .aboutSubtitle {
+          font-size: 20px;
+          margin-bottom: 40px;
+        }
+
+        .aboutAdvantages {
+          font-size: 20px;
+        }
+      }
+
+      .aboutImg {
+        #about {
+          width: 100%;
+          height: auto;
+          max-height: 440px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  /* ---------- TABLET 768–1279px ---------- */
+  @media (max-width: 1699px) and (min-width: 768px) {
+    .aboutTextImg {
+      padding: 10% 5%;
+      gap: 60px;
+
+      .aboutDescription {
+        .aboutHeading {
+          font-size: 30px;
+          margin-bottom: 40px;
+        }
+
+        .aboutSubtitle {
+          font-size: 20px;
+          margin-bottom: 40px;
+        }
+
+        .aboutAdvantages {
+          font-size: 20px;
+        }
+      }
+
+      .aboutImg {
+        #about {
+          width: 100%;
+          height: auto;
+          max-height: 440px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+
+  /* ---------- MOBILE ≤767px ---------- */
+  @media (max-width: 767px) {
+    .aboutTextImg {
+      flex-direction: column;
+      padding: 10% 5%;
+      gap: 40px;
+      text-align: center;
+
+      .aboutDescription {
+        .aboutHeading {
+          font-size: 26px;
+          margin-bottom: 30px;
+        }
+
+        .aboutSubtitle {
+          font-size: 18px;
+          margin-bottom: 30px;
+        }
+
+        .aboutAdvantages {
+          font-size: 18px;
+
+          ul {
+            padding-left: 0;
+
+            li {
+              list-style: none;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+
+      .aboutImg {
+        #about {
+          width: 100%;
+          height: auto;
+          max-height: 300px;
+          object-fit: cover;
+        }
+      }
+    }
+  }
+}

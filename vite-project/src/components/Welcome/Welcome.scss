@@ -1,0 +1,91 @@
+.welcome {
+  background-image: url("./assets/img/welcome.png");
+  height: 978px;
+  width: 100%;
+  background-size: cover;
+  padding: 100px 0;
+
+  .welcomeBox {
+    margin: 0 100px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    .WelcomeHeading {
+      color: white;
+      display: flex;
+      flex-direction: column;
+      gap: 70px;
+
+      .WelcomeName {
+        p {
+          font-size: 48px;
+          font-weight: bolder;
+          margin: 0;
+        }
+      }
+
+      .WelcomeSubtitle {
+        p {
+          font-size: 36px;
+          font-weight: bold;
+          margin: 0;
+        }
+      }
+    }
+  }
+
+  /* ---------- TABLET 768–1279px ---------- */
+  @media (max-width: 1279px) and (min-width: 768px) {
+    height: 750px;
+    padding: 80px 0;
+
+    .welcomeBox {
+      margin: 0 50px;
+
+      .WelcomeHeading {
+        gap: 50px;
+
+        .WelcomeName p {
+          font-size: 40px;
+        }
+
+        .WelcomeSubtitle p {
+          font-size: 28px;
+        }
+      }
+    }
+  }
+
+  /* ---------- MOBILE ≤767px ---------- */
+  @media (max-width: 767px) {
+    height: auto;
+    padding: 60px 0;
+    background-position: center;
+
+    .welcomeBox {
+      margin: 0 20px;
+      gap: 40px;
+      justify-content: flex-start;
+
+      .WelcomeHeading {
+        gap: 30px;
+
+        .WelcomeName p {
+          font-size: 28px;
+          text-align: center;
+        }
+
+        .WelcomeSubtitle p {
+          font-size: 20px;
+          text-align: center;
+        }
+      }
+
+      button {
+        align-self: center; // чтобы кнопка была по центру
+      }
+    }
+  }
+}

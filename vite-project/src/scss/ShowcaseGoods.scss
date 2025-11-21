@@ -1,0 +1,89 @@
+.titleSubtitle {
+  gap: 50px;
+  padding: 100px 110px 0 110px;
+
+  .title {
+    font-size: 48px;
+    padding-bottom: 50px;
+  }
+
+  .subtitle {
+    font-size: 24px;
+    width: 60%;
+  }
+
+  // Desktop ≥1280px
+  @media (min-width: 1280px) {
+    padding: 100px 110px 0 110px;
+    .title {
+      font-size: 48px;
+    }
+    .subtitle {
+      font-size: 24px;
+      width: 60%;
+    }
+  }
+
+  // Tablet 768–1279px
+  @media (min-width: 768px) and (max-width: 1279px) {
+    padding: 80px 50px 0 50px;
+    gap: 40px;
+
+    .title {
+      font-size: 36px;
+      padding-bottom: 30px;
+    }
+
+    .subtitle {
+      font-size: 20px;
+      width: 80%;
+      text-align: center;
+    }
+  }
+
+  // Mobile ≤767px
+  @media (max-width: 767px) {
+    padding: 60px 20px 0 20px;
+    gap: 30px;
+
+    .title {
+      font-size: 28px;
+      padding-bottom: 20px;
+      text-align: center;
+    }
+
+    .subtitle {
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+    }
+  }
+}
+
+.Products {
+  display: flex;
+  padding: 0 110px;
+  margin-top: 100px;
+  flex-wrap: wrap;
+  gap: 250px;
+
+  // Desktop ≥1280px
+  @media (min-width: 1280px) {
+    gap: 250px;
+    padding: 0 110px;
+  }
+
+  // Tablet 768–1279px
+  @media (min-width: 768px) and (max-width: 1279px) {
+    gap: 150px;
+    padding: 0 50px;
+    justify-content: center;
+  }
+
+  // Mobile ≤767px
+  @media (max-width: 767px) {
+    gap: 20px;
+    padding: 0 20px;
+    justify-content: center;
+  }
+}

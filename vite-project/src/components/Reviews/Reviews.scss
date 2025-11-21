@@ -1,32 +1,105 @@
-.reviews{
-  padding: 100px 0 100px 0;
-  .reviews_title{
+.reviews {
+  padding: 100px 0;
+
+  .reviews_title {
     font-size: 96px;
-    display: flex;
-    justify-content: center;
+    text-align: center;
     margin-bottom: 100px;
   }
-  .reviews_card{
-    margin: 0 100px 0 100px;
+
+  .reviews_card {
+    margin: 0 100px;
     display: flex;
     justify-content: space-between;
     padding: 80px;
-    border: black solid;
-    border-width: 3px 0 3px 0;
+    border: var(--light_blue) solid;
+    border-width: 3px 0;
     border-radius: 20px 0 20px 0;
-    .reviews_left{
-      .reviews_quote{
+
+    .reviews_left {
+      .reviews_quote {
         font-size: 36px;
+        margin-bottom: 20px;
       }
-      .reviews_author{
+
+      .reviews_author {
         font-size: 24px;
       }
     }
-    .reviews_right{
+
+    .reviews_right {
       width: 630px;
-      height: 100%;
-      .reviews_text{
+
+      .reviews_text {
         font-size: 24px;
+        line-height: 1.4;
+      }
+    }
+  }
+
+  /* ====== Tablet 768–1279px ====== */
+  @media (max-width: 1279px) {
+    .reviews_title {
+      font-size: 72px;
+      margin-bottom: 70px;
+    }
+
+    .reviews_card {
+      margin: 0 40px;
+      padding: 60px;
+
+      .reviews_left {
+        .reviews_quote {
+          font-size: 30px;
+        }
+
+        .reviews_author {
+          font-size: 20px;
+        }
+      }
+
+      .reviews_right {
+        width: 420px;
+
+        .reviews_text {
+          font-size: 20px;
+        }
+      }
+    }
+  }
+
+  /* ====== Mobile ≤767px ====== */
+  @media (max-width: 767px) {
+    padding: 60px 0;
+
+    .reviews_title {
+      font-size: 42px;
+      margin: 0 20px 50px;
+      word-break: break-word;
+    }
+
+    .reviews_card {
+      margin: 0 20px;
+      padding: 40px;
+      flex-direction: column;
+      gap: 30px;
+
+      .reviews_left {
+        .reviews_quote {
+          font-size: 26px;
+        }
+
+        .reviews_author {
+          font-size: 18px;
+        }
+      }
+
+      .reviews_right {
+        width: 100%;
+
+        .reviews_text {
+          font-size: 18px;
+        }
       }
     }
   }
