@@ -5,15 +5,139 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e5421015-63f7-416c-999e-6649b8acfc11" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/vite-project/src/app/router.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Button/Button.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/components/Header/Header.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/vite-project/src/pages/AboutPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/Apple_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/Apple_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/GooglePlay_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/GooglePlay_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/Huawei_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/Huawei_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/Light_Dark_Mode_Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/Light_Dark_Mode_Icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/RuStore_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/RuStore_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/TG_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/TG_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/VK_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/VK_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/logo_footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/logo_footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/icon/youtube_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/icon/youtube_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/Adrenaline_classik.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/Adrenaline_classik.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/Adrenaline_extra.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/Adrenaline_extra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/Adrenaline_rash.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/Adrenaline_rash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/Aqua.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/Aqua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/Cola.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/Cola.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/Frustile.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/Frustile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/J7.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/J7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/Lays.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/Lays.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/Lipton.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/Lipton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/STA_banner_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/STA_banner_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/fresh_content.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/fresh_content.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/lubimii.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/lubimii.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/personal_manager.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/personal_manager.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/photo_for_gallery_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/photo_for_gallery_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/img/welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/img/welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/index-Bf75NOtz.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/index-Ch59-llZ.css" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/index-Ch59-llZ.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/assets/react-CHdo91hT.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/assets/react-CHdo91hT.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/dist/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/dist/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/dist/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/eslint.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/eslint.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/Apple_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/Apple_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/GooglePlay_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/GooglePlay_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/Huawei_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/Huawei_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/Light_Dark_Mode_Icons.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/Light_Dark_Mode_Icons.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/RuStore_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/RuStore_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/TG_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/TG_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/VK_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/VK_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/logo.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/logo.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/logo_footer.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/logo_footer.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/icon/youtube_white.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/icon/youtube_white.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/Adrenaline_classik.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Adrenaline_classik.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/Adrenaline_extra.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Adrenaline_extra.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/Adrenaline_rash.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Adrenaline_rash.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/Aqua.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Aqua.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/Cola.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Cola.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/Frustile.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Frustile.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/J7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/J7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/Lays.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Lays.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/Lipton.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/Lipton.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/STA_banner_white.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/STA_banner_white.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/about.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/about.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/fresh_content.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/fresh_content.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/lubimii.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/lubimii.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/personal_manager.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/personal_manager.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_1.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_2.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_3.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_4.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_4.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_5.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_5.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_6.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_6.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_7.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_7.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_8.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_8.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/photo_for_gallery_9.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/photo_for_gallery_9.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/assets/img/welcome.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/assets/img/welcome.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/react.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/react.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/public/vite.svg" beforeDir="false" afterPath="$PROJECT_DIR$/public/vite.svg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/app/ThemeContext.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/ThemeContext.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/app/router.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/app/router.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/About/About.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/About/About.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/About/About.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Advantages/Advantages.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Advantages/Advantages.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Advantages/Advantages.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Advantages/Advantages.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Applications/Applications.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Applications/Applications.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Applications/Applications.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Applications/Applications.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Back_connection/Back_connection.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Back_connection/Back_connection.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Back_connection/Back_connection.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Back_connection/Back_connection.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Button/Button.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Button/Button.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Button/Button.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Footer/Footer.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Footer/Footer.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Footer/Footer.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Header/Header.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Header/Header.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Header/Header.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Products/Products.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Products/Products.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Products/Products.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Reviews/Reviews.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reviews/Reviews.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Reviews/Reviews.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Reviews/Reviews.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/STA/STA.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/STA/STA.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/STA/STA.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/STA/STA.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Slider/Slider.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Slider/Slider.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Slider/Slider.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/ThemeSwitcher/ThemeSwitcher.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/ThemeSwitcher/ThemeSwitcher.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Welcome/Welcome.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome/Welcome.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/components/Welcome/Welcome.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/components/Welcome/Welcome.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/main.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/main.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/pages/AboutPage.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutPage.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/pages/AboutUs.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/AboutUs.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/pages/Kontacts.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/Kontacts.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/pages/ShowcaseGoods.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/ShowcaseGoods.jsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/scss/AboutPage.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/AboutPage.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/scss/AboutUs.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/AboutUs.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/scss/Kontacts.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/Kontacts.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/scss/ShowcaseGoods.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/ShowcaseGoods.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/scss/components.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/components.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/scss/main.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/main.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/src/scss/variables.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/scss/variables.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/vite-project/vite.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/vite.config.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings">
+    <execution />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -25,9 +149,10 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 8
-}]]></component>
+  <component name="PhpWorkspaceProjectConfiguration" interpreter_name="$PROJECT_DIR$/../../../php8.3/php.exe" />
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 8
+}</component>
   <component name="ProjectId" id="35ga7rZWSYgx3xemmcHlgaGcHJ2" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -41,8 +166,9 @@
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
+    "git-widget-placeholder": "gh-pages",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -52,10 +178,16 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\OSPanel\home\yp08_starostin_32v" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-b26f3e71634d-JavaScript-WS-251.26094.131" />
+        <option value="bundled-js-predefined-d6986cc7102b-3aa1da707db6-JavaScript-PS-252.26830.95" />
+        <option value="bundled-php-predefined-a98d8de5180a-9b563d34894c-com.jetbrains.php.sharedIndexes-PS-252.26830.95" />
       </set>
     </attachedChunks>
   </component>
@@ -67,6 +199,7 @@
       <option name="presentableId" value="Default" />
       <updated>1763534004027</updated>
       <workItem from="1763534005131" duration="2037000" />
+      <workItem from="1763791594205" duration="323000" />
     </task>
     <servers />
   </component>
